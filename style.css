@@ -19,3 +19,78 @@
     padding: 5rem 9rem;
   }
 
+
+
+
+
+  
+
+/*  *_*_*_*_*_*_  Header Section  *_*_*_*_*_*_ */
+
+#header {
+    top: 0;
+    position: fixed;
+    margin: 0rem 9rem;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#header .logo {
+    margin-right: auto;
+    font-size: 1.7rem;
+    color:var(--dark);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#header .logo i {
+    color: var(--primary);
+    margin-right: .5rem;
+}
+
+#header .navbar a {
+    color: var(--dark);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+#header .icons{
+    display: flex;
+    margin-left: 1rem;
+}
+
+#header .icons .cart {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#header .icons #search-btn {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#header .icons a {
+    color: var(--dark);
+}
+
+#close {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--dark);
+    display: none;
+}
+
+#bar {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-left: 1rem;
+    display: none;
+}
