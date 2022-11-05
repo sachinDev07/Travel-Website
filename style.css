@@ -23,13 +23,15 @@
 
 
 
-  
+
 
 /*  *_*_*_*_*_*_  Header Section  *_*_*_*_*_*_ */
 
 #header {
-    top: 0;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     margin: 0rem 9rem;
     padding: 1rem 0;
     width: 100%;
@@ -37,6 +39,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+    z-index: 1000;
 }
 
 #header .logo {
@@ -54,9 +57,10 @@
 
 #header .navbar a {
     color: var(--dark);
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     margin-left: 1rem;
+    transition: all .3s ease;
 }
 
 #header .icons{
@@ -68,16 +72,27 @@
     margin-left: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 #header .icons #search-btn {
     margin-left: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+#header .icons #search-btn:hover {
+    color: var(--primary);
 }
 
 #header .icons a {
     color: var(--dark);
+}
+
+#header .navbar a:hover,
+#header .icons a:hover {
+    color: var(--primary);
 }
 
 #close {
@@ -94,3 +109,9 @@
     margin-left: 1rem;
     display: none;
 }
+
+
+
+
+
+
