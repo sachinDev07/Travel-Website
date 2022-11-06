@@ -10,6 +10,12 @@
     text-decoration: none;
 }
 
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
 :root {
     --primary:#219150;
     --dark:#10221b;
@@ -17,7 +23,27 @@
 
 .padding {
     padding: 5rem 9rem;
-  }
+}
+
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border: 0.1rem solid var(--dark);
+    color: var(--dark);
+    cursor: pointer;
+    background: none;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+  
+.btn:hover {
+    background: var(--dark);
+    color: #fff;
+}
+
 
 
 
@@ -110,6 +136,55 @@
     display: none;
 }
 
+
+
+
+
+
+
+/* ==========  Hero Section  ========== */
+
+#hero {
+    padding: 0;
+}
+
+#hero .box {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding: 2rem 9rem;
+}
+
+#hero .box.second {
+    justify-content: flex-start;
+}
+
+#hero .box .content {
+    width: 30rem;
+}
+
+#hero .box .content span {
+    font-size: 2rem;
+    color: var(--dark);
+}
+
+#hero .box .content h3 {
+    font-size: 4rem;
+    color: var(--primary);
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+#hero .box .content p {
+    line-height: 2;
+    color: var(--dark);
+    font-size: .9rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
 
 
 
