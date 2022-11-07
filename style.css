@@ -190,3 +190,45 @@ html {
 
 
 
+
+/*========== Category Section ===========  */
+
+#category {
+    text-align: center;
+}
+
+#category h2 {
+    font-size: 2.5rem;
+}
+
+#category .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#category .wrapper .box {
+    width: 15rem;
+}
+
+#category .wrapper .cat_img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+#category .wrapper .cat_img img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#category .wrapper .box span {
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#category .wrapper .box p {
+    font-size: .9rem;
+    margin-top: .5rem;
+    color: var(--dark);
+}
