@@ -232,3 +232,56 @@ html {
     margin-top: .5rem;
     color: var(--dark);
 }
+
+
+
+
+
+
+/*========== About Section ===========  */
+
+
+#about {
+    background-color: #eee;
+}
+
+#about .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .wrapper .left_box {
+    width: 48%;
+
+}
+
+#about .wrapper .left_box img {
+    width: 100%;
+    box-shadow: 3rem 3rem 0 rgb(0 0 0 / 10%);
+}
+
+#about .wrapper .right_box {
+    width: 45%;
+}
+
+#about .wrapper .right_box span {
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#about .wrapper .right_box p {
+    color:var(--dark);
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+#about .wrapper .right_box > p {
+    margin: 1rem 0;
+}
+
+#about .wrapper .right_box .p-2 {
+    margin-top: 2rem;
+}
