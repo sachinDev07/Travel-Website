@@ -285,3 +285,73 @@ html {
 #about .wrapper .right_box .p-2 {
     margin-top: 2rem;
 }
+
+
+
+
+
+
+/*========== Shop Section ===========  */
+
+#shop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#shop h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+#shop .big_container {
+    width: 100%;
+}
+
+#shop .card_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+#shop .shop_card {
+    width: 18.5rem;
+    max-width: 296px;
+    margin-right: 1rem;
+    border: 2px solid var(--dark);
+}
+
+#shop .shop_card .shop_img {
+    width: 18.14rem;
+}
+
+#shop .shop_card .shop_img img {
+    width: 100%;
+}
+
+#shop .shop_card .shop_content {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#shop .shop_card .shop_content strong {
+    display: block;
+    color: var(--dark);
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+#shop .shop_card .shop_content span {
+    
+    font-size: 1.2rem;
+    color: var(--primary);
+    font-weight: 400;
+}
+
+#shop .shop_card .shop_content .rating_star {
+    margin-top: .5rem;
+}
