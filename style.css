@@ -306,23 +306,12 @@ html {
     margin: 1rem 0;
 }
 
-#shop .big_container {
-    width: 100%;
-}
-
-#shop .card_container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-}
-
 #shop .shop_card {
-    width: 18.5rem;
+    width: 19rem;
     max-width: 296px;
-    margin-right: 1rem;
+    margin-right: 0;
     border: 2px solid var(--dark);
+
 }
 
 #shop .shop_card .shop_img {
@@ -354,4 +343,50 @@ html {
 
 #shop .shop_card .shop_content .rating_star {
     margin-top: .5rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    display: none;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 0rem;
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: rgb(105, 104, 104);
 }

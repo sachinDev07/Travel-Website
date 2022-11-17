@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
 <body>
@@ -42,58 +45,51 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="swiper home_slider">
 
-            <div class="swiper_wrapper">
-
-                <div class="swiper_slide">
-                    <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
-                        <div class="content">
-                            <span>Never Stop</span>
-                            <h3>Exploring</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
-                                soluta
-                                consequatur saepe aliquam, excepturi delectus consequuntur minus!
-                            </p>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
-                        <div class="content">
-                            <span>Make Tour</span>
-                            <h3>Amazing</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
-                                soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!
-                            </p>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
-                        <div class="content">
-                            <span>Explore The</span>
-                            <h3>New World</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
-                                soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!
-                            </p>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+            <div class="content">
+                <span>Never Stop</span>
+                <h3>Exploring</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
+                    soluta
+                    consequatur saepe aliquam, excepturi delectus consequuntur minus!
+                </p>
+                <a href="#" class="btn">get started</a>
             </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
         </div>
+        </div>
+
+        <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+            <div class="content">
+                <span>Make Tour</span>
+                <h3>Amazing</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
+                    soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!
+                </p>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+            <div class="content">
+                <span>Explore The</span>
+                <h3>New World</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias
+                    soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!
+                </p>
+                <a href="#" class="btn">get started</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+
 
     </section>
 
@@ -169,142 +165,164 @@
     </section>
 
 
-    <!-- Shop Products -->
+    <!-- Shop Section -->
     <section id="shop" class="padding">
         <h2>Featured Products</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-        <div class="big_container">
-            <div class="card_container">
-
-                <div class="shop_card">
-
-                    <div class="shop_img">
-                        <img src="images/product-1.jpg" alt="">
-                    </div>
-
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-1.jpg" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
-                <div class="shop_card">
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-                    <div class="shop_img">
-                        <img src="images/product-2.jpg" alt="">
-                    </div>
-
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-2.jpg" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="shop_card">
 
-                    <div class="shop_img">
-                        <img src="images/product-3.jpg" alt="">
-                    </div>
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-3.jpg" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="shop_card">
 
-                    <div class="shop_img">
-                        <img src="images/product-4.JPG" alt="">
-                    </div>
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-4.JPG" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="shop_card">
 
-                    <div class="shop_img">
-                        <img src="images/product-5.JPG" alt="">
-                    </div>
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-5.JPG" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="shop_card">
 
-                    <div class="shop_img">
-                        <img src="images/product-6.jpg" alt="">
-                    </div>
+                <div class="swiper-slide">
+                    <div class="shop_card">
 
-                    <div class="shop_content">
-                        <strong>Survival Kits</strong>
-                        <span>$5.00 - $25.00</span>
-
-                        <div class="rating_star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <i class="far fa-star"></i>
+                        <div class="shop_img">
+                            <img src="images/product-6.jpg" alt="">
                         </div>
 
+                        <div class="shop_content">
+                            <strong>Survival Kits</strong>
+                            <span>$5.00 - $25.00</span>
+
+                            <div class="rating_star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                
             </div>
-
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     <!-- JavaScript -->
     <script src="script.js"></script>
+
 </body>
 
 </html>
