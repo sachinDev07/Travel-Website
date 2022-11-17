@@ -390,3 +390,89 @@ html {
     line-height: 1;
     color: rgb(105, 104, 104);
 }
+
+
+
+
+
+/*========== Packages Section ===========  */
+
+#package {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+#package h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#package .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#package .container .box {
+    width: 400px;
+    border: 2px solid var(--dark);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    transition: all .3s linear;
+}
+
+#package .container .box:hover {
+    background-color: var(--dark);
+}
+
+#package .container .box .package__image {
+    width: 100%;
+}
+
+#package .container .box .package__image img {
+    border-radius: 8px;
+    width: 100%;
+    
+}
+
+#package .container .box .package__content h5 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#package .container .box .package__content p {
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+#package .container .box .package__content span {
+    display: block;
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+#package .container .box .package__content a {
+    margin-bottom: 1rem;
+}
+
+#package .container .box:hover h5,
+#package .container .box:hover p {
+    color: #ffff;
+}
+
+#package .container .box:hover a {
+    border-color: #ffff ;
+    color: #ffff;
+}
+
+#package .container .box .package__content a:hover {
+    background-color: #ffff;
+    color: var(--dark);
+}
