@@ -570,3 +570,102 @@ html {
     font-style: normal;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+/*========== Offer Section ===========  */
+
+
+#offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+}
+
+#offer h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#offer .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#offer .container .box {
+    width: 400px;
+    border: 2px solid var(--dark);
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    transition: all .3s linear;
+}
+
+#offer .container .box img {
+    border-radius: 8px;
+    width: 30%;
+}
+
+#offer .container .box .package__content  {
+    padding: 1rem 0;
+    transition: all .3s linear;
+}
+
+#offer .container .box:hover .package__content {
+    background-color: #eee;
+}
+
+#offer .container .box:hover .package__content p,
+#offer .container .box:hover .package__content h5 {
+    color: var(--dark);
+}
+
+#offer .container .box:hover .package__content a {
+    border-color: var(--dark);
+    color: var(--primary);
+}
+
+#offer .container .box .package__content h5 {
+    color: var(--primary);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#offer .container .box .package__content p {
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+#offer .container .box .package__content span {
+    display: block;
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+#package .container .box .package__content a {
+    margin-bottom: 1rem;
+}
+
+#offer .container .box:hover h5,
+#offer .container .box:hover p {
+    color: #ffff;
+}
+
+#offer .container .box:hover a {
+    border-color: #ffff ;
+    color: #ffff;
+}
+
+#offer .container .box .package__content a:hover {
+    background-color: #ffff;
+    color: var(--dark);
+}
