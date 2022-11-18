@@ -476,3 +476,97 @@ html {
     background-color: #ffff;
     color: var(--dark);
 }
+
+
+
+
+
+
+/*========== Review Section ===========  */
+
+
+#review {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#review h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+#review .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 1.1rem;
+    font-style: italic;
+    cursor: grab;
+}
+
+#review .person__about {
+    padding: 2rem 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+#review .person__about::before {
+    content: '';
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0.7rem;
+    height: 3rem;
+    width: 3rem;
+    background: #eee;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#review .person__about p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: .8px;
+    line-height: 1.9;
+}
+
+#review .person__profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#review .person__profile .p__image {
+    width: 25%;
+}
+
+#review .person__profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#review .person__profile .person__role {
+    width: 70%;   
+}
+
+#review .person__profile .person__role h3 {
+    color: var(--dark);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+#review .person__profile .person__role span {
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+}
