@@ -311,7 +311,7 @@ html {
     max-width: 296px;
     margin-right: 0;
     border: 2px solid var(--dark);
-
+    cursor:grab;
 }
 
 #shop .shop_card .shop_img {
