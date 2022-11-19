@@ -900,6 +900,7 @@ html {
 #footer .container .box .contact__details li span:hover,
 #footer .container .box .social__media li a:hover {
     color: var(--primary);
+    left: 8px;
 }
 
 #footer p {
