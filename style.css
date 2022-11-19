@@ -149,6 +149,7 @@ html {
 }
 
 #hero .box {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -164,6 +165,7 @@ html {
 
 #hero .box .content {
     width: 30rem;
+    text-align: start;
 }
 
 #hero .box .content span {
