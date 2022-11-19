@@ -812,3 +812,14 @@ html {
     background: #fff;
     color: var(--dark);
 }
+
+
+
+
+
+
+/*========== Clients Section ===========  */
+
+#client img {
+    width: 60%;
+}
