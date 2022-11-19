@@ -1,3 +1,22 @@
+let navbar = document.querySelector('#header .navbar');
+
+window.onscroll = () => {
+  navbar.classList.remove('active');
+
+  if(window.scrollY > 0){
+      document.getElementById('header').classList.add('active');
+  }else{
+      document.getElementById('header').classList.remove('active');
+  }
+};
+
+window.onload = () =>{
+  if(window.scrollY > 0){
+      document.getElementById('header').classList.add('active');
+  }else{
+      document.getElementById('header').classList.remove('active');
+  }
+};
 
 // hero section
 var swiper = new Swiper(".mySwiper1", {
