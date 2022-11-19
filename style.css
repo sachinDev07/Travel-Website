@@ -312,10 +312,43 @@ html {
     margin-right: 0;
     border: 2px solid var(--dark);
     cursor:grab;
+    transition: all .3s linear;
 }
 
 #shop .shop_card .shop_img {
     width: 18.14rem;
+    position: relative;
+}
+
+#shop .shop_card .popup {
+    width: 100%;
+    position: absolute;
+    /* bottom: 2rem; */
+    left: 0;
+    text-align: center;
+    -webkit-transform: translateY(7rem);
+    transform: translateY(7rem);
+    display: none;
+    transition:.3s linear;
+}
+
+#shop .shop_card .popup a  {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    background: var(--dark);
+    margin-right: .1rem;
+    padding: .5rem;   
+    transition: all.3s ease;
+}
+
+#shop .shop_card .popup a:hover {
+    background: var(--primary);
+}
+
+#shop .shop_card:hover .popup {
+    display: block;
+    bottom: 17rem;
 }
 
 #shop .shop_card .shop_img img {
