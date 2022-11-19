@@ -837,6 +837,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-bottom: 3rem;
 }
 
 #footer .container {
@@ -898,5 +899,16 @@ html {
 
 #footer .container .box .contact__details li span:hover,
 #footer .container .box .social__media li a:hover {
+    color: var(--primary);
+}
+
+#footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+#footer p span {
     color: var(--primary);
 }
