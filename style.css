@@ -669,3 +669,87 @@ html {
     background-color: #ffff;
     color: var(--dark);
 }
+
+
+
+
+
+
+/*========== Blog Section ===========  */
+
+#blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+#blog .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    font-size: 1.1rem;
+    font-style: italic;
+    cursor: grab;
+}
+
+#blog .swiper-slide .blog__image {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#blog .swiper-slide .blog__image img {
+    border-radius: .5rem;
+}
+
+#blog .swiper-slide .info__strip {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    bottom: 13.1rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--dark);
+}
+
+#blog .swiper-slide .info__strip i {
+    color: var(--primary);
+}
+
+#blog .swiper-slide .info__strip span {
+    color: #fff;
+    font-size: .9rem;
+    font-style: normal;
+    transition: all .3s linear;
+}
+
+#blog .swiper-slide .info__strip span:hover {
+    color: var(--primary);
+}
+
+#blog .swiper-slide span {
+    margin-top: 1rem;
+    color: var(--dark);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#blog .swiper-slide p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.9;
+    font-style: normal;
+    text-align: center;
+}
+
+#blog .swiper-slide a {
+    font-style: normal;
+}
