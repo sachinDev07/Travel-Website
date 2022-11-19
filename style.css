@@ -753,3 +753,62 @@ html {
 #blog .swiper-slide a {
     font-style: normal;
 }
+
+
+
+
+
+/*========== Newsletter Section ===========  */
+
+#newsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+#newsletter h2 {
+    font-size: 3rem;
+}
+#newsletter p {
+    width: 800px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: .5px;
+    margin: 1rem 0;
+}
+
+#newsletter form {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 5rem;
+    border: 2px solid var(--dark);
+    padding:  0.5rem .7rem;
+    display: flex;
+}
+
+#newsletter form .email {
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.2rem;
+    color: var(--dark);
+    padding: 0 1.3rem;
+}
+
+#newsletter form .btn {
+    margin-top: 0;
+    border-radius: 5rem;
+    background: var(--dark);
+    color: #fff;
+}
+
+#newsletter form .btn:hover {
+    background: #fff;
+    color: var(--dark);
+}
