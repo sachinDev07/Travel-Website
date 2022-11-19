@@ -822,4 +822,5 @@ html {
 
 #client img {
     width: 60%;
+    cursor: grab;
 }
