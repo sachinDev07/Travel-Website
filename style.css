@@ -824,3 +824,79 @@ html {
     width: 60%;
     cursor: grab;
 }
+
+
+
+
+
+
+/*========== Footer Section ===========  */
+
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .container .box h3 {
+    margin-bottom: 1.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: none;
+}
+
+#footer .container .box ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#footer .container .box ul li {
+    margin-bottom: 1rem;
+    font-style: none;
+    transition: all .3s linear;
+}
+
+#footer .container .box .quick__links li a,
+#footer .container .box .extra__links li a {
+    color: #fff;
+    transition: all .2s ease;
+}
+
+#footer .container .box .quick__links li:hover a,
+#footer .container .box .extra__links li:hover a {
+    color: var(--primary);
+}
+
+#footer .container .box .contact__details li i,
+#footer .container .box .social__media li i {
+    color: var(--primary);
+    transition: all .2s ease;
+}
+
+#footer .container .box .contact__details li span {
+    color: #fff;
+    margin-left: .3rem;
+    transition: all .2s ease;
+}
+
+#footer .container .box .social__media li a {
+    color: #ffff;
+    transition: all .2s ease;
+}
+
+#footer .container .box .social__media li i {
+    margin-right: .3rem;
+    color: var(--primary);
+}
+
+#footer .container .box .contact__details li span:hover,
+#footer .container .box .social__media li a:hover {
+    color: var(--primary);
+}
